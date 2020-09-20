@@ -1,0 +1,25 @@
+.albumlist{
+    background-color:#3cb371;
+    border: 1px solid lightgray;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+}
+
+.grid__3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+  }
+  .card {
+    padding: 1rem;
+    border: #ccc 1px dotted;
+    margin :0.7rem 0
+  }
+
+  @media (max-width: 700px) {
+   .grid__3
+     {
+      grid-template-columns: 1fr;
+    }
+  }

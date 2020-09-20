@@ -1,0 +1,23 @@
+.pagination__container{
+    display: inline-block;
+    margin-bottom: 30px;
+
+}
+.text__center {
+    text-align: center;
+}
+
+.pagination__container a{
+   border : 1px solid lightgray;
+   background-color:  white;
+   padding: 10px;
+   margin: 10px;
+   cursor: pointer;
+   text-decoration: none;
+}
+
+
+
+.focus__class:focus{
+  background-color: #3cb371;
+}
